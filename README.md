@@ -108,6 +108,8 @@ Recent work:
 **Writing:** Substack · ORCID-linked publications · Open data archiving
 
 ---
+![Ryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lesterhau&show_icons=true&theme=dark&hide_border=true)
+---
 
 ## 📍 Background
 
