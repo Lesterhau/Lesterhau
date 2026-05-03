@@ -2,8 +2,8 @@ name: Update Substack Posts
 
 on:
   schedule:
-    - cron: "0 9 * * 1"   # Every Monday at 9am UTC
-  workflow_dispatch:        # Allow manual trigger
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -15,51 +15,29 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Fetch latest Substack posts via RSS
-        id: rss
+      - name: Install feedparser
+        run: pip install feedparser
+
+      - name: Fetch and inject Substack posts
         run: |
-          # Fetch RSS feed
-          curl -s "https://rlperspectives.substack.com/feed" -o feed.xml
-
-          # Extract last 3 post titles and URLs using xmllint
-          sudo apt-get install -q -y libxml2-utils
-
-          titles=$(xmllint --xpath "//channel/item/title/text()" feed.xml 2>/dev/null | head -3)
-          links=$(xmllint --xpath "//channel/item/link/text()" feed.xml 2>/dev/null | head -3)
-
-          # Build markdown list
           python3 - <<'EOF'
-          import xml.etree.ElementTree as ET
+          import feedparser
 
-          tree = ET.parse("feed.xml")
-          root = tree.getroot()
-          ns = {"": ""}
+          feed = feedparser.parse("https://rlperspectives.substack.com/feed")
+          items = feed.entries[:3]
 
-          items = root.findall(".//item")[:3]
           lines = []
           for item in items:
-              title = item.findtext("title", "").strip()
-              link  = item.findtext("link", "").strip()
+              title = item.get("title", "").strip()
+              link  = item.get("link", "").strip()
               if title and link:
                   lines.append(f"- [{title}]({link})")
 
-          output = "\n".join(lines)
-          print(output)
+          new_posts = "\n".join(lines)
 
-          with open("substack_posts.md", "w") as f:
-              f.write(output)
-          EOF
-
-      - name: Inject posts into README
-        run: |
-          python3 - <<'EOF'
           with open("README.md", "r") as f:
               content = f.read()
 
-          with open("substack_posts.md", "r") as f:
-              new_posts = f.read().strip()
-
-          # Replace content between markers
           import re
           pattern = r"(<!-- SUBSTACK:START -->)(.*?)(<!-- SUBSTACK:END -->)"
           replacement = f"<!-- SUBSTACK:START -->\n{new_posts}\n<!-- SUBSTACK:END -->"
@@ -68,7 +46,8 @@ jobs:
           with open("README.md", "w") as f:
               f.write(updated)
 
-          print("README updated with latest Substack posts.")
+          print("Done. Posts injected:")
+          print(new_posts)
           EOF
 
       - name: Commit and push if changed
