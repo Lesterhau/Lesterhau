@@ -5,6 +5,9 @@ on:
     - cron: "0 9 * * 1"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -15,17 +18,30 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Install feedparser
-        run: pip install feedparser
+      - name: Install dependencies
+        run: pip install feedparser requests
 
       - name: Fetch and inject Substack posts
         run: |
           python3 - <<'EOF'
           import feedparser
+          import re
+          import sys
+
+          # Substack blocks default user agents — spoof a browser
+          feedparser.USER_AGENT = (
+              "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+              "AppleWebKit/537.36 (KHTML, like Gecko) "
+              "Chrome/124.0.0.0 Safari/537.36"
+          )
 
           feed = feedparser.parse("https://rlperspectives.substack.com/feed")
-          items = feed.entries[:3]
 
+          if not feed.entries:
+              print("ERROR: No entries found in feed. Substack may be blocking the request.")
+              sys.exit(1)
+
+          items = feed.entries[:3]
           lines = []
           for item in items:
               title = item.get("title", "").strip()
@@ -34,20 +50,22 @@ jobs:
                   lines.append(f"- [{title}]({link})")
 
           new_posts = "\n".join(lines)
+          print(f"Found {len(lines)} posts:")
+          print(new_posts)
 
           with open("README.md", "r") as f:
               content = f.read()
 
-          import re
           pattern = r"(<!-- SUBSTACK:START -->)(.*?)(<!-- SUBSTACK:END -->)"
           replacement = f"<!-- SUBSTACK:START -->\n{new_posts}\n<!-- SUBSTACK:END -->"
           updated = re.sub(pattern, replacement, content, flags=re.DOTALL)
 
-          with open("README.md", "w") as f:
-              f.write(updated)
-
-          print("Done. Posts injected:")
-          print(new_posts)
+          if updated == content:
+              print("WARNING: No SUBSTACK markers found in README — nothing replaced.")
+          else:
+              with open("README.md", "w") as f:
+                  f.write(updated)
+              print("README updated successfully.")
           EOF
 
       - name: Commit and push if changed
