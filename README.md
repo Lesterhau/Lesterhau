@@ -32,7 +32,7 @@ All papers available on SSRN. Data publicly archived on Harvard Dataverse.
 <!-- PAPERS:START -->
 | Paper | Venue | Status | Data |
 |---|---|---|---|
-| **[Rational Foreclosure: A Stochastic Reference Point Model of Aspirational Abandonment under Positional Drift](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6614858)** | *Theoretical Economics* (target) | 🔄 Under Review | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FV5NSZX-blue?style=flat-square)](https://doi.org/10.7910/DVN/V5NSZX) |
+| **[Rational Foreclosure: A Stochastic Reference Point Model of Aspirational Abandonment under Positional Drift](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6614858)** | *Theoretical Economics* | 🔄 Under Review | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FV5NSZX-blue?style=flat-square)](https://doi.org/10.7910/DVN/V5NSZX) |
 | **[The Regime Boundaries of AI-Amplified Research: Task Complementarity, Physical Validation, and the Limits of Semi-Endogenous Growth](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6649740)** | *Journal of Economic Growth* · BUPA submission pending | ✅ SSRN Posted | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FFA75PH-blue?style=flat-square)](https://doi.org/10.7910/DVN/FA75PH) |
 | **[Two Sectors, One Airspace: Workload, Complexity, and Safety in Air Traffic Control](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6520839)** | *Journal of Air Transport Management* | 🔄 Under Review | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FUNRVAO-blue?style=flat-square)](https://doi.org/10.7910/DVN/UNRVAO) |
 <!-- PAPERS:END -->
