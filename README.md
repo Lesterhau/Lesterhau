@@ -32,7 +32,7 @@ All papers available on SSRN. Data publicly archived on Harvard Dataverse.
 <!-- PAPERS:START -->
 | Paper | Venue | Status | Data |
 |---|---|---|---|
-| **[Rational Foreclosure: A Stochastic Reference Point Model of Aspirational Abandonment under Positional Drift](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6614858)** | *Theoretical Economics* | 🔄 Under Review | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FV5NSZX-blue?style=flat-square)](https://doi.org/10.7910/DVN/V5NSZX) |
+| **[Rational Foreclosure: A Stochastic Reference Point Model of Aspirational Abandonment under Positional Drift](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6614858)** | *Theoretical Economics* (target) | ✅ SSRN Posted | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FV5NSZX-blue?style=flat-square)](https://doi.org/10.7910/DVN/V5NSZX) |
 | **[The Regime Boundaries of AI-Amplified Research: Task Complementarity, Physical Validation, and the Limits of Semi-Endogenous Growth](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6649740)** | *Journal of Economic Growth* · BUPA submission pending | ✅ SSRN Posted | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FFA75PH-blue?style=flat-square)](https://doi.org/10.7910/DVN/FA75PH) |
 | **[Two Sectors, One Airspace: Workload, Complexity, and Safety in Air Traffic Control](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6520839)** | *Journal of Air Transport Management* | 🔄 Under Review | [![DOI](https://img.shields.io/badge/DOI-10.7910%2FDVN%2FUNRVAO-blue?style=flat-square)](https://doi.org/10.7910/DVN/UNRVAO) |
 <!-- PAPERS:END -->
@@ -45,25 +45,7 @@ All papers available on SSRN. Data publicly archived on Harvard Dataverse.
 
 ## 🛠 Projects
 
-Things I'm actually building.
-
-### [Stoop](https://github.com/Lesterhau/stoop) — Hyperlocal Social, Video-First
-> *Neighborhood discovery for people who are tired of being algorithmically sorted into loneliness.*
-
-Fandom-level interest matching within proximity bands. No DMs. No groups. No events. Just the 100 people closest to you who care about the same things you do. Starting in Montrose, Houston.
-
-`React Native` `Proximity Matching` `Fandom Interests` `Horizontal Scroll` `No-DM Architecture`
-
----
-
-### [Roam](https://github.com/Lesterhau/roam) — Waze for Hunting
-> *Crowdsourced field intelligence for hunters who are tired of burning diesel on bad intel.*
-
-Parcel boundary overlays, offline mode, ArcGIS satellite tiles, crowdsourced field intel posts. Freemium: Scout (free) → Field Pass ($4.99/mo) → Landowner ($19.99/mo).
-
-`Leaflet.js` `ArcGIS` `Regrid API` `Supabase` `IndexedDB` `Offline-First`
-
----
+Things I'm actually building
 
 ### [SwarmMind](https://github.com/Lesterhau/swarmind) — AI-Native Foresight Intelligence
 > *Structured scenario planning that doesn't require a PhD to run.*
@@ -71,6 +53,26 @@ Parcel boundary overlays, offline mode, ArcGIS satellite tiles, crowdsourced fie
 Integrates STEEP classification, Schwartz scenario planning, Three Horizons, Hines HAT axes, CLA, Spiral Dynamics, and Polak Future Image scoring into a single workflow. Built for foresight practitioners, policy analysts, and organizations that plan in years not quarters.
 
 `Foresight` `Scenario Planning` `STEEP` `Strategic Intelligence`
+
+---
+
+### [AI Education Toolkits](https://github.com/Lesterhau/ai-education-toolkits) — Free Implementation Guides for School Leaders
+> *Because the gap in state AI guidance is real and the deadlines aren't waiting.*
+
+Two free frameworks — one for K-12 superintendents and principals, one for university presidents and provosts. No paywall. No consultant required. Of the 34 state AI education documents currently in circulation, zero include a named implementation role with a job description. These do.
+
+`AI Policy` `K-12` `Higher Education` `Implementation Framework` `Open Access`
+
+[View K-12 Toolkit](https://lesterhau.github.io/ai-education-toolkits/Before%20You%20Launch%20-%20AI%20in%20Schools%20HTML.html) · [View Higher Ed Toolkit](https://lesterhau.github.io/ai-education-toolkits/Before%20You%20Launch%20-%20AI%20in%20Higher%20Education%20HTML.html
+
+---
+
+### [Stoop](https://github.com/Lesterhau/stoop) — Hyperlocal Social, Video-First
+> *Neighborhood discovery for people who are tired of being algorithmically sorted into loneliness.*
+
+Fandom-level interest matching within proximity bands. No DMs. No groups. No events. Just the 100 people closest to you who care about the same things you do. Starting in Montrose, Houston.
+
+`React Native` `Proximity Matching` `Fandom Interests` `Horizontal Scroll` `No-DM Architecture`
 
 ---
 
@@ -83,23 +85,29 @@ Cross-platform AI water consumption tracker. Converts token usage to water cost 
 
 ---
 
+### [Roam](https://github.com/Lesterhau/roam) — Waze for Hunting
+> *Crowdsourced field intelligence for hunters who are tired of burning diesel on bad intel.*
+
+Parcel boundary overlays, offline mode, ArcGIS satellite tiles, crowdsourced field intel posts. Freemium: Scout (free) → Field Pass ($4.99/mo) → Landowner ($19.99/mo).
+
+`Leaflet.js` `ArcGIS` `Regrid API` `Supabase` `IndexedDB` `Offline-First`
+
+---
+
 ## ✍️ Writing
 
-Essays at **[RLPerspectives.com](https://rlperspectives.com)** — the Greenlight voice. Confessional before analytical. Structurally chaotic in the way that things that are actually true tend to be.
+Essays at **[RLPerspectives.com](https://rlperspectives.com)** — Confessional before analytical. Structurally chaotic in the way that things that are actually true tend to be.
 
 <!-- SUBSTACK:START -->
+- [The Math Says The Kids Are Right](https://rlperspectives.substack.com/p/the-math-says-the-kids-are-right)
+- [Leftists! Governments and AI Companies Are Designing Your Future Without You](https://rlperspectives.substack.com/p/leftists-governments-and-ai-companies)
 - [The Boring Couple, and the Church That Never Met Jesus](https://rlperspectives.substack.com/p/the-boring-couple)
 - [Propaganda Machines](https://rlperspectives.substack.com/p/propaganda-machines)
-- [The Year the Noise Stopped Working](https://rlperspectives.substack.com/p/the-year-the-noise-stopped-working)
 <!-- SUBSTACK:END -->
 
 ---
 
 ## 🧰 Methods & Tools
-
-[![wakatime](https://wakatime.com/badge/user/Lesterhau.svg)](https://wakatime.com/@Lesterhau)
-
-![Ryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lesterhau&show_icons=true&theme=dark&hide_border=true&count_private=true)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
@@ -118,7 +126,7 @@ Essays at **[RLPerspectives.com](https://rlperspectives.com)** — the Greenligh
 
 ## 📍 Background
 
-22 years as a U.S. Navy Senior Chief — logistics, leadership, and systems-level problem solving at scale. Veteran-owned business (RL Perspectives, LLC). Population health minor, because economic models that ignore bodies are incomplete. Everest Base Camp, 2024. Houston by choice.
+22 years as a U.S. Navy Senior Chief — operations management, leadership, and systems-level problem solving at scale. Veteran-owned business (RL Perspectives, LLC). Population health minor, because economic models that ignore bodies are incomplete. Everest Base Camp, 2024. Houstonian by choice.
 
 ---
 
