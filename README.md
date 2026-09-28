@@ -19,7 +19,7 @@
 
 I work at the intersection of behavioral economics, urban systems, and applied foresight. My research gets peer-reviewed. My code gets deployed. My essays get read by people who then text me things like "damn, that's me."
 
-Three papers on SSRN. One under journal review. Building a hyperlocal social app for Houston and a foresight intelligence tool. Starting an M.S. in Futures Studies in Fall 2026.
+Three papers on SSRN. One under journal review. Building a hyperlocal social app, a foresight intelligence platform, and **Humanity Loop** — an open experiment in turning LLMs into a distributed public-interest workforce. Now pursuing an M.S. in Foresight at the University of Houston.
 
 > *"The research question I keep returning to: what happens to human decision-making when systems fail slowly enough that we adapt to them?"*
 
@@ -47,6 +47,21 @@ All papers available on SSRN. Data publicly archived on Harvard Dataverse.
 
 Things I'm actually building
 
+### [Humanity Loop](https://github.com/Lesterhau/humanity-loop) — Open LLM Public-Interest Infrastructure
+> *What if AI agents spent some of their idle intelligence doing measurable good — then shared what worked so the next agents started smarter?*
+
+Humanity Loop is an open protocol, action ledger, and emerging agent ecosystem for finding neglected high-impact problems, executing reversible interventions, independently challenging and replicating them, and preserving the evidence for the next generation of agents.
+
+Current experiments include medication-safety guidance monitoring, retraction-to-guideline tracing, emergency-alert quality checks, planetary-systems scouting, and a planned cross-platform MCP layer so ChatGPT, Claude, Gemini, Codex, Cursor, and other agents can contribute to the same shared loop.
+
+**Humans and agents are invited to join.** Replicate an action, challenge an assumption, propose a nonredundant project, or build one of the open infrastructure pieces.
+
+[Explore Humanity Loop](https://github.com/Lesterhau/humanity-loop) · [Read the Protocol](https://github.com/Lesterhau/humanity-loop/blob/main/PROTOCOL.md) · [Replication Prompt](https://github.com/Lesterhau/humanity-loop/blob/main/REPLICATION-PROMPT.md) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md)
+
+`AI Agents` `Public Interest` `Foresight` `MCP` `Open Source` `Humanity-scale Problems`
+
+---
+
 ### [SwarmMind](https://github.com/Lesterhau/swarmind) — AI-Native Foresight Intelligence
 > *Structured scenario planning that doesn't require a PhD to run.*
 
@@ -63,7 +78,7 @@ Two free frameworks — one for K-12 superintendents and principals, one for uni
 
 `AI Policy` `K-12` `Higher Education` `Implementation Framework` `Open Access`
 
-[View K-12 Toolkit](https://lesterhau.github.io/ai-education-toolkits/Before%20You%20Launch%20-%20AI%20in%20Schools%20HTML.html) · [View Higher Ed Toolkit](https://lesterhau.github.io/ai-education-toolkits/Before%20You%20Launch%20-%20AI%20in%20Higher%20Education%20HTML.html
+[View K-12 Toolkit](https://lesterhau.github.io/ai-education-toolkits/Before%20You%20Launch%20-%20AI%20in%20Schools%20HTML.html) · [View Higher Ed Toolkit](https://lesterhau.github.io/ai-education-toolkits/Before%20You%20Launch%20-%20AI%20in%20Higher%20Education%20HTML.html)
 
 ---
 
@@ -77,9 +92,9 @@ Fandom-level interest matching within proximity bands. No DMs. No groups. No eve
 ---
 
 ### [TokenWater](https://github.com/Lesterhau/tokenwater) — Track the Water Cost of AI
-> *100ml per 1,000 tokens. Across 20 platforms. Now you know.*
+> *Make AI's water footprint visible without pretending an estimate is a meter.*
 
-Cross-platform AI water consumption tracker. Converts token usage to water cost equivalent. Open source, MIT licensed.
+Cross-platform AI water-impact estimator. Uses an uncertainty-first, scenario-based methodology rather than a universal water-per-token claim. Open source, MIT licensed.
 
 `HTML` `JavaScript` `AI Ethics` `Environmental Accountability`
 
