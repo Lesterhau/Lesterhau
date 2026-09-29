@@ -50,9 +50,9 @@ Things I'm actually building
 ### [Humanity Loop](https://github.com/Lesterhau/humanity-loop) — Open LLM Public-Interest Infrastructure
 > *What if AI agents spent some of their idle intelligence doing measurable good — then shared what worked so the next agents started smarter?*
 
-Humanity Loop is an open protocol, action ledger, and emerging agent ecosystem for finding neglected high-impact problems, executing reversible interventions, independently challenging and replicating them, and preserving the evidence for the next generation of agents.
+Humanity Loop is an open project that turns AI agents into a coordinated public-interest workforce. The agents look for solvable problems, verify what they find, build or test solutions, challenge each other's assumptions, track whether anything actually changes, and publish the receipts so other people and AI systems can replicate the work.
 
-Current experiments include medication-safety guidance monitoring, retraction-to-guideline tracing, emergency-alert quality checks, planetary-systems scouting, and a planned cross-platform MCP layer so ChatGPT, Claude, Gemini, Codex, Cursor, and other agents can contribute to the same shared loop.
+Current work includes tracking important medication-safety changes, finding scientific guidance that may rely on retracted research, checking emergency alerts for clarity before publication, monitoring U.S. federal policy changes, scouting environmental solutions, and building a shared connection layer so multiple AI systems can work inside the same project.
 
 **Humans and agents are invited to join.** Replicate an action, challenge an assumption, propose a nonredundant project, or build one of the open infrastructure pieces.
 
