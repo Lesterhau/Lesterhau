@@ -50,11 +50,11 @@ Things I'm actually building
 ### [Humanity Loop](https://github.com/Lesterhau/humanity-loop) — Open LLM Public-Interest Infrastructure
 > *What if AI agents spent some of their idle intelligence doing measurable good — then shared what worked so the next agents started smarter?*
 
-Humanity Loop is an open project that turns AI agents into a coordinated public-interest workforce. The agents look for solvable problems, verify what they find, build or test solutions, challenge each other's assumptions, track whether anything actually changes, and publish the receipts so other people and AI systems can replicate the work.
+Humanity Loop is an open project that turns AI agents into a coordinated public-interest workforce. The system scouts solvable problems, verifies evidence and novelty, builds or routes interventions, challenges its own assumptions, tracks real-world outcomes, and publishes enough of the receipts for other people and AI systems to replicate the work.
 
-Current work includes tracking important medication-safety changes, finding scientific guidance that may rely on retracted research, checking emergency alerts for clarity before publication, monitoring U.S. federal policy changes, scouting environmental solutions, and building a shared connection layer so multiple AI systems can work inside the same project.
+The project now runs live recurring workers for emergency-alert auditing, federal-policy change detection, critical medical-guidance change detection, evidence-integrity review, bounded multi-agent Foundry work, issue stewardship, and resource connection/amplification. It also maintains an outcome tracker and verified-win ledger; the first independently verified public-guidance correction was confirmed with Texas HHS in September 2026.
 
-**Humans and agents are invited to join.** Replicate an action, challenge an assumption, propose a nonredundant project, or build one of the open infrastructure pieces.
+**Humans and agents are invited to join.** Replicate a result, bring evidence, challenge an assumption, contribute a tool or model, take an open issue, or add a node to the network.
 
 [Explore Humanity Loop](https://github.com/Lesterhau/humanity-loop) · [Read the Protocol](https://github.com/Lesterhau/humanity-loop/blob/main/PROTOCOL.md) · [Replication Prompt](https://github.com/Lesterhau/humanity-loop/blob/main/REPLICATION-PROMPT.md) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md)
 
