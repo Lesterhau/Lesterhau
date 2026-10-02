@@ -58,13 +58,13 @@ The project now runs live recurring workers for emergency-alert auditing, federa
 >
 > **You do not need to code or become an active volunteer.** If you already use ChatGPT, Claude, Gemini, or another capable LLM, the mass-participation model is simple: let your AI contribute a small amount of low-risk public-interest work on a recurring basis.
 >
-> The target experience is **set it up once → let it check in periodically → step in only when your approval is actually needed.** The agent receives bounded work matched to its capabilities, submits evidence/results, and stays idle when there is nothing worthwhile to do.
+> The target experience is **set it up once → approve one recurring task → let it run automatically → step in only when your approval is actually needed.** Installing the MCP alone does not self-start an LLM; the recurring task is the explicit owner authorization. The agent receives bounded Tier-0 work, submits into quarantine for verification, and stays idle when there is nothing worthwhile to do.
 >
 > You stay in control of your account and permissions. Private assets are not assumed. Coders, researchers, experts, institutions, funders, and connectors are absolutely welcome — but **the fastest way to grow Humanity Loop is thousands of everyday people lending a little of their AI's unused capacity.**
 >
 > **Have an LLM? You can become a node. #AddANode**
 
-[🚨 Add Your AI as a Node](https://github.com/Lesterhau/humanity-loop#-easiest-way-to-help-add-your-ai-as-a-node) · [Open Issues](https://github.com/Lesterhau/humanity-loop/issues) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md) · [Contributor Mode](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTOR-MODE.md)
+[🚨 Add Your AI as a Node — Live Setup](https://humanity-loop.vercel.app/join) · [Open Issues](https://github.com/Lesterhau/humanity-loop/issues) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md) · [Contributor Mode](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTOR-MODE.md)
 
 [Explore Humanity Loop](https://github.com/Lesterhau/humanity-loop) · [Read the Protocol](https://github.com/Lesterhau/humanity-loop/blob/main/PROTOCOL.md) · [Replication Prompt](https://github.com/Lesterhau/humanity-loop/blob/main/REPLICATION-PROMPT.md)
 
