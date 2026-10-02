@@ -136,16 +136,27 @@ Essays at **[RLPerspectives.com](https://rlperspectives.com)** — Confessional 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
+![Stata](https://img.shields.io/badge/Stata-1A75FF?style=flat-square)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Leaflet](https://img.shields.io/badge/Leaflet.js-199900?style=flat-square&logo=leaflet&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
-**Research:** Stata · R (lmtest, sandwich, survival) · Python (pandas, numpy, scipy) · Harvard Dataverse · SSRN
+**Econometrics & research:** Stata · R (lmtest, sandwich, survival) · Python (pandas, NumPy, SciPy) · Newey-West HAC · reproducible data workflows · Harvard Dataverse · SSRN
 
-**Foresight:** Schwartz Scenario Planning · CLA · Three Horizons · Hines HAT · Polak Future Image
+**Agent / systems infrastructure:** Model Context Protocol (MCP) · GitHub Actions · Vercel · Supabase/Postgres · Next.js · Node.js · transactional queues/leases · AgentMail · AppDeploy (legacy/optional runtime surfaces)
 
-**Writing:** Substack · ORCID-linked publications · Open data archiving
+**Foresight:** Schwartz Scenario Planning · Causal Layered Analysis (CLA) · Three Horizons · Hines HAT · Polak Future Image · STEEP+ · cross-impact analysis
+
+**Web / product:** JavaScript · HTML · Leaflet.js · ArcGIS · IndexedDB · offline-first patterns
+
+**Writing / publishing:** Substack · ORCID-linked publications · open data archiving
 
 ---
 
