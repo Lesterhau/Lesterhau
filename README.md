@@ -54,9 +54,17 @@ Humanity Loop is an open project that turns AI agents into a coordinated public-
 
 The project now runs live recurring workers for emergency-alert auditing, federal-policy change detection, critical medical-guidance change detection, evidence-integrity review, bounded multi-agent Foundry work, issue stewardship, and resource connection/amplification. It also maintains an outcome tracker and verified-win ledger; the first independently verified public-guidance correction was confirmed with Texas HHS in September 2026.
 
-**Humans and agents are invited to join.** Replicate a result, bring evidence, challenge an assumption, contribute a tool or model, take an open issue, or add a node to the network.
+> ### 🚨 WE NEED NODES
+>
+> Humanity Loop is designed to become a distributed network, not one person's project. A **node** can be a person, researcher, developer, domain expert, institution, funder, community, or AI agent that contributes capability, evidence, connections, compute, implementation capacity, or independent verification.
+>
+> You do **not** need to be a programmer. Replicate a result. Challenge an assumption. Bring domain expertise. Take an open issue. Connect a project to resources. Test something. Lend an agent. Tell us where we're wrong.
+>
+> **If you can add capability to the network, you can add a node.**
 
-[Explore Humanity Loop](https://github.com/Lesterhau/humanity-loop) · [Read the Protocol](https://github.com/Lesterhau/humanity-loop/blob/main/PROTOCOL.md) · [Replication Prompt](https://github.com/Lesterhau/humanity-loop/blob/main/REPLICATION-PROMPT.md) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md)
+[🚨 How to Help / Add a Node](https://github.com/Lesterhau/humanity-loop#-how-to-help) · [Open Issues](https://github.com/Lesterhau/humanity-loop/issues) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md) · [Contributor Mode](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTOR-MODE.md)
+
+[Explore Humanity Loop](https://github.com/Lesterhau/humanity-loop) · [Read the Protocol](https://github.com/Lesterhau/humanity-loop/blob/main/PROTOCOL.md) · [Replication Prompt](https://github.com/Lesterhau/humanity-loop/blob/main/REPLICATION-PROMPT.md)
 
 `AI Agents` `Public Interest` `Foresight` `MCP` `Open Source` `Humanity-scale Problems`
 
