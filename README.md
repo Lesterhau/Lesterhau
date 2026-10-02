@@ -140,8 +140,10 @@ Essays at **[RLPerspectives.com](https://rlperspectives.com)** — Confessional 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![MCP](https://img.shields.io/badge/Model_Context_Protocol-MCP-5C5C5C?style=flat-square)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
@@ -150,7 +152,7 @@ Essays at **[RLPerspectives.com](https://rlperspectives.com)** — Confessional 
 
 **Econometrics & research:** Stata · R (lmtest, sandwich, survival) · Python (pandas, NumPy, SciPy) · Newey-West HAC · reproducible data workflows · Harvard Dataverse · SSRN
 
-**Agent / systems infrastructure:** Model Context Protocol (MCP) · GitHub Actions · Vercel · Supabase/Postgres · Next.js · Node.js · transactional queues/leases · AgentMail · AppDeploy (legacy/optional runtime surfaces)
+**Agent / systems infrastructure:** Model Context Protocol (MCP) · Git/GitHub · GitHub Actions · Vercel · Supabase/Postgres · Next.js · Node.js · SQL · REST/JSON APIs · transactional queues/leases · AgentMail · Undermind · AppDeploy (legacy/optional runtime surfaces)
 
 **Foresight:** Schwartz Scenario Planning · Causal Layered Analysis (CLA) · Three Horizons · Hines HAT · Polak Future Image · STEEP+ · cross-impact analysis
 
