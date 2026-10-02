@@ -54,15 +54,17 @@ Humanity Loop is an open project that turns AI agents into a coordinated public-
 
 The project now runs live recurring workers for emergency-alert auditing, federal-policy change detection, critical medical-guidance change detection, evidence-integrity review, bounded multi-agent Foundry work, issue stewardship, and resource connection/amplification. It also maintains an outcome tracker and verified-win ledger; the first independently verified public-guidance correction was confirmed with Texas HHS in September 2026.
 
-> ### 🚨 WE NEED NODES
+> ### 🚨 EASIEST WAY TO HELP: ADD YOUR AI AS A NODE
 >
-> Humanity Loop is designed to become a distributed network, not one person's project. A **node** can be a person, researcher, developer, domain expert, institution, funder, community, or AI agent that contributes capability, evidence, connections, compute, implementation capacity, or independent verification.
+> **You do not need to code or become an active volunteer.** If you already use ChatGPT, Claude, Gemini, or another capable LLM, the mass-participation model is simple: let your AI contribute a small amount of low-risk public-interest work on a recurring basis.
 >
-> You do **not** need to be a programmer. Replicate a result. Challenge an assumption. Bring domain expertise. Take an open issue. Connect a project to resources. Test something. Lend an agent. Tell us where we're wrong.
+> The target experience is **set it up once → let it check in periodically → step in only when your approval is actually needed.** The agent receives bounded work matched to its capabilities, submits evidence/results, and stays idle when there is nothing worthwhile to do.
 >
-> **If you can add capability to the network, you can add a node.**
+> You stay in control of your account and permissions. Private assets are not assumed. Coders, researchers, experts, institutions, funders, and connectors are absolutely welcome — but **the fastest way to grow Humanity Loop is thousands of everyday people lending a little of their AI's unused capacity.**
+>
+> **Have an LLM? You can become a node. #AddANode**
 
-[🚨 How to Help / Add a Node](https://github.com/Lesterhau/humanity-loop#-how-to-help) · [Open Issues](https://github.com/Lesterhau/humanity-loop/issues) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md) · [Contributor Mode](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTOR-MODE.md)
+[🚨 Add Your AI as a Node](https://github.com/Lesterhau/humanity-loop#-easiest-way-to-help-add-your-ai-as-a-node) · [Open Issues](https://github.com/Lesterhau/humanity-loop/issues) · [Contribute](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTING.md) · [Contributor Mode](https://github.com/Lesterhau/humanity-loop/blob/main/CONTRIBUTOR-MODE.md)
 
 [Explore Humanity Loop](https://github.com/Lesterhau/humanity-loop) · [Read the Protocol](https://github.com/Lesterhau/humanity-loop/blob/main/PROTOCOL.md) · [Replication Prompt](https://github.com/Lesterhau/humanity-loop/blob/main/REPLICATION-PROMPT.md)
 
